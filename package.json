@@ -1,0 +1,12 @@
+{
+  "name": "grow-tool-grid",
+  "version": "0.0.1",
+  "description": "Grow UI Tool for CSS Grid overlays.",
+  "main": "tool.js",
+  "repository": {
+    "url": "https://github.com/grow/grow-tool-grid.git",
+    "type": "git"
+  },
+  "author": "Randy Merrill <randy@blinkk.com>",
+  "license": "MIT"
+}
