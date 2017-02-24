@@ -1,3 +1,35 @@
 .grow__icon_grid {
   background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEwIDE4aDVWNWgtNXYxM3ptLTYgMGg1VjVINHYxM3pNMTYgNXYxM2g1VjVoLTV6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
 }
+
+.grow_tool__grid__overlay {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9900;
+}
+
+.grow_tool__grid__overlay--hidden {
+  display: none;
+}
+
+.grow_tool__grid__grid {
+  background-color: rgba(179, 229, 252, .5);
+  display: none;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.grow_tool__grid__column {
+  background-color: rgba(41, 182, 246, .5);
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.grow_tool__grid__gutter {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
