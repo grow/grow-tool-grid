@@ -16,7 +16,7 @@
 }
 
 .grow_tool__grid__grid {
-  background-color: rgba(179, 229, 252, .5);
+  background-color: rgba(179, 229, 252, .3);
   display: none;
   height: 100vh;
   margin: 0 auto;
@@ -24,7 +24,7 @@
 }
 
 .grow_tool__grid__column {
-  background-color: rgba(41, 182, 246, .5);
+  background-color: rgba(41, 182, 246, .3);
   flex-grow: 1;
   flex-shrink: 1;
 }
