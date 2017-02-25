@@ -1,6 +1,6 @@
 {
   "name": "grow-tool-grid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Grow UI Tool for CSS Grid overlays.",
   "main": "tool.js",
   "repository": {
