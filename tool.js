@@ -17,6 +17,9 @@
     var colWidth = (grid.width - (grid.gutter * (grid.cols - 1))) / grid.cols;
     var prefix = '.grow_tool__grid__grid--' + grid.cols + ' ';
 
+    if (grid.margin) {
+      styles += prefix + '{ width: calc(100% - ' + grid.margin * 2 + 'px); }\n';
+    }
     styles += prefix + '{ display: flex; max-width: ' + grid.width + 'px; }\n';
     styles += prefix + '.grow_tool__grid__gutter { width: ' + grid.gutter + 'px; }\n';
     styles += prefix + '.grow_tool__grid__column { width: ' + colWidth + 'px; }\n';
